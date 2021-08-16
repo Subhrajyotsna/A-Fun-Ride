@@ -58,7 +58,7 @@ function draw() {
   fill("hotpink");
   stroke("white");
   textSize(25);
-  text("Use arrow keys to move the Hot Air Balloon! Have a fun ride!😃",40,40);
+  text("Use arrow keys to move the Hot Air Balloon! Have a fun ride!😃👩🏻🧑🏻",40,40);
 }
 function changePosition(x,y){
   database.ref("balloon/position").set({
